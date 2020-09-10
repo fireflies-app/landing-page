@@ -1,0 +1,8 @@
+.nav-link {
+    color: white !important;
+    border: solid 2px white;
+    border-radius: 50px;
+    &:hover {
+        color: $gold !important
+    }
+}

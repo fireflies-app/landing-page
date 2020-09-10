@@ -1,0 +1,145 @@
+/*
+Theme Name: Fireflies Theme
+Author: Jun Huang
+Author URI: n/a
+Description: A custom development theme for Fireflies.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import "variables";
+@import "mixins";
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Jaldi', sans-serif !important;
+    margin: 0 !important;
+    background: $bg !important;
+    color: black !important;
+}
+
+section {
+    min-height: 100vh;
+    padding: 15vh 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 !important;
+    display: inline;
+}
+
+p,
+a {
+    margin-bottom: 0 !important;
+    // display: block;
+}
+
+b {
+    color: $gold;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+// vertically and horizontally centers child element 
+.hv-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.regular-heading {
+    font-weight: 400 !important;
+}
+
+.large-heading {
+    font-size: 5rem;
+    font-weight: 900;
+}
+
+.medium-heading {
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.small-heading {
+    font-size: 135%;
+    font-weight: 900;
+}
+
+.rounded-img {
+    border-radius: 31px;
+}
+
+.subscribe-form {
+    display: inline-block;
+    position: relative;
+
+    .rounded-input {
+        border-radius: 50px;
+        box-shadow: 2px 2px 5px $gray;
+        border: none;
+        height: 50px;
+        color: $gray;
+        padding-left: 20px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    p {
+        display: inline-block;
+    }
+
+    .submit-button {
+        position: absolute;
+        height: 70%;
+        width: 20%;
+        top: 15%;
+        right: 10px;
+        border-radius: 50px;
+        border: transparent;
+        background: $gold;
+        font-weight: 900;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .wpcf7-not-valid-tip {
+        position: absolute;
+    }
+
+}
+
+.wpcf7-response-output,
+.ajax-loader {
+    position: absolute;
+    width: 100%;
+    margin: 1em 0 !important;
+}
+
+.wpcf7-not-valid-tip {
+    margin: auto;
+}
+
+@import 'navbar';
+@import 'home';
+@import 'fireflies-banner';
+@import 'why-fireflies';
+@import 'ways-to-spread-love';
+@import 'footer';

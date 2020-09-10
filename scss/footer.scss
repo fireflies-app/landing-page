@@ -1,0 +1,36 @@
+#footer {
+    padding: 10vh 0;
+    background: $gold;
+    #main-footer {
+        margin-top: 7.5em;
+    }
+    a{
+        display: inline-block;
+        margin: 0 .5em;
+        color: black;
+
+        &:hover {
+            color: white;
+        }
+
+        i{
+            font-size: 2rem;
+        }
+    }
+
+    #footer-logo {
+        font-weight: 900;
+    }
+
+    #footer-copyright {
+        color: $gray ;
+    }
+
+    #footer-contact {
+        font-weight: 900;
+
+        a{
+            text-decoration: none;
+        }
+    }
+}

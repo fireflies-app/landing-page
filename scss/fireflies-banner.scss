@@ -1,0 +1,23 @@
+#fireflies-banner {
+    background: url('../fireflies-theme/assets/images/fireflies-banner.png') 0 100% / 100% no-repeat;
+    min-height: 40vh;
+    padding: 0;
+}
+
+@media only screen and (min-width:700px) {
+    #fireflies-banner {
+        min-height: 60vh;
+    }
+}
+
+@media only screen and (min-width:1050px) {
+    #fireflies-banner {
+        min-height: 75vh;
+    }
+}
+
+@media only screen and (min-width:1200px) {
+    #fireflies-banner {
+        min-height: 100vh;
+    }
+}
