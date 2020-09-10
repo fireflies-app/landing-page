@@ -1,0 +1,16 @@
+#footer {
+    background: $gold;
+    a{
+        display: inline-block;
+        margin: 0 .5em;
+        color: black;
+
+        &:hover {
+            color: white;
+        }
+
+        i{
+            font-size: 2rem;
+        }
+    }
+}
