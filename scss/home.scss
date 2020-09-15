@@ -2,14 +2,62 @@
     color: white;
     min-height: 50vh;
     padding: 10vh 0;
-
-    h3 {
+    .large-heading {
         font-size: 1.5rem;
     }
+    h3 {
+        font-size: .9rem;
+        max-width: 75%;
+    }
+    p {
+        font-size: .75rem;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    #home {
+        .large-heading {
+            font-size: 2rem;
+        }
+        h3 {
+            font-size: 1.3rem;
+            max-width: 100%;
+        }
+        p {
+            font-size: 1rem;
+        }
+    } 
 }
 
 @media only screen and (min-width: 992px) {
     #home {
         min-height: 70vh;
+        .large-heading {
+            font-size: 3.5rem;
+        }
+        h3 {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #home {
+        min-height: 60vh;
+        .large-heading {
+            font-size: 4rem;
+        }
+        h3 {
+            font-size: 1.75rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #home {
+        min-height: 70vh;
+        .large-heading {
+            font-size: 4.25rem;
+        }
     }
 }

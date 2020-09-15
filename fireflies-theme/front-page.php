@@ -4,21 +4,21 @@
 
 <section class="hv-center" id="home">
     <div class="container" id="home-content">
-        <h1 class="large-heading" data-aos="fade-up" data-aos-duration="3000">Alone a speck, together a
+        <h1 class="large-heading" data-aos="fade-up">Alone a speck, together a
             <b>revolution</b>.</h1> <br>
-        <h3 data-aos="zoom-in-right" data-aos-duration="1500">Welcome to <b>Fireflies</b>, a safe community for people
+        <h3 class="mt-2" data-aos="fade-up">Welcome to <b>Fireflies</b>, a safe community for people
             to explore, perform, and share various
             acts of advocacy.</h3>
-        <div class="mt-5" data-aos="fade-up" data-aos-duration="1000">
-            <p class="mb-2">Sign up on our waiting list to hear about our launch</p>
+        <div class="mt-5" data-aos="fade-up" data-aos-duration="750">
+            <p class="mb-2">Sign up on our waiting list to hear about our launch</p> <br>
             <?php echo do_shortcode('[contact-form-7 id="6" title="Contact form 1"]'); ?>
         </div>
     </div>
 </section>
 
-<section id="fireflies-banner">
+<section id="fireflies-banner" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="-300">
     <img id="banner-firefly" src="<?php echo get_template_directory_uri() ?>/assets/images/logos/logo-white.png"
-        alt="Logo White" data-aos="flip-left" data-aos-duration="1500" data-aos-easing="ease-out-cubic">
+        alt="Logo White" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="-300" data-aos-easing="ease-out-cubic">
 </section>
 
 <section id="why-fireflies">

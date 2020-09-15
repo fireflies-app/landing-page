@@ -25,7 +25,8 @@ body {
 
 section {
   min-height: 100vh;
-  padding: 15vh 0; }
+  padding: 15vh 0;
+  overflow-x: hidden; }
 
 h1,
 h2,
@@ -34,11 +35,12 @@ h4,
 h5,
 h6 {
   margin: 0 !important;
-  display: inline; }
+  display: inline-block; }
 
 p,
 a {
-  margin-bottom: 0 !important; }
+  margin-bottom: 0 !important;
+  display: inline-block; }
 
 b {
   color: #f8e083; }
@@ -63,7 +65,7 @@ b {
   font-weight: 900; }
 
 .small-heading {
-  font-size: 135%;
+  font-size: 100%;
   font-weight: 900; }
 
 @media only screen and (min-width: 1050px) {
@@ -186,12 +188,44 @@ b {
   color: white;
   min-height: 50vh;
   padding: 10vh 0; }
-  #home h3 {
+  #home .large-heading {
     font-size: 1.5rem; }
+  #home h3 {
+    font-size: .9rem;
+    max-width: 75%; }
+  #home p {
+    font-size: .75rem; }
+
+@media only screen and (min-width: 500px) {
+  #home .large-heading {
+    font-size: 2rem; }
+  #home h3 {
+    font-size: 1.3rem;
+    max-width: 100%; }
+  #home p {
+    font-size: 1rem; } }
 
 @media only screen and (min-width: 992px) {
   #home {
-    min-height: 70vh; } }
+    min-height: 70vh; }
+    #home .large-heading {
+      font-size: 3.5rem; }
+    #home h3 {
+      font-size: 1.5rem; } }
+
+@media only screen and (min-width: 1200px) {
+  #home {
+    min-height: 60vh; }
+    #home .large-heading {
+      font-size: 4rem; }
+    #home h3 {
+      font-size: 1.75rem; } }
+
+@media only screen and (min-width: 1400px) {
+  #home {
+    min-height: 70vh; }
+    #home .large-heading {
+      font-size: 4.25rem; } }
 
 #fireflies-banner {
   background: url("../fireflies-theme/assets/images/fireflies-banner.png") 0 100%/100% no-repeat;
@@ -216,14 +250,14 @@ b {
 
 @media only screen and (min-width: 1200px) {
   #fireflies-banner {
-    min-height: 75vh; }
+    min-height: 60vh; }
     #fireflies-banner #banner-firefly {
       left: 28%;
       width: 60px; } }
 
 @media only screen and (min-width: 1400px) {
   #fireflies-banner {
-    min-height: 90vh; } }
+    min-height: 70vh; } }
 
 #why-fireflies {
   background: #f8e083; }
@@ -249,7 +283,7 @@ b {
 
 .wireframe-preview, .wireframe {
   border-radius: 10px;
-  border: solid 1px rgba(0, 0, 0, 0.1); }
+  border: solid 2px rgba(0, 0, 0, 0.1); }
 
 .modal-header a.close-modal {
   text-decoration: none;
