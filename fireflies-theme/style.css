@@ -104,13 +104,16 @@ b {
   .subscribe-form .submit-button {
     position: absolute;
     height: 70%;
-    width: 30%;
+    width: 12%;
     top: 15%;
     right: 10px;
     border-radius: 50px;
     border: transparent;
     background: #f8e083;
-    font-weight: 900; }
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 0;
+    color: #686868; }
     .subscribe-form .submit-button:focus {
       outline: none; }
   .subscribe-form .wpcf7-not-valid-tip {
@@ -175,7 +178,8 @@ b {
 @media only screen and (min-width: 992px) {
   .navbar {
     background-color: #0a0b20f8;
-    font-size: 150%; }
+    font-size: 150%;
+    height: 85px !important; }
     .navbar .navbar-brand {
       margin-left: 35px; }
     .navbar .navbar-nav {

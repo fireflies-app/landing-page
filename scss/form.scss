@@ -23,13 +23,16 @@
     .submit-button {
         position: absolute;
         height: 70%;
-        width: 30%;
+        width: 12%;
         top: 15%;
         right: 10px;
         border-radius: 50px;
         border: transparent;
         background: $gold;
         font-weight: 900;
+        font-size: 2rem;
+        line-height: 0;
+        color: $gray;
 
         &:focus {
             outline: none;
