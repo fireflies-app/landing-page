@@ -1,11 +1,87 @@
 #why-fireflies {
     background: $gold;
-
+    b {
+        color: black;
+    }
     .row {
         margin: 10vh 0;
     }
+    .wireframe {
+        cursor: pointer;
 
+        &:hover {
+            @include transition (all .3s ease-out);
+            filter: brightness(.85);
+        }
+    }
     .wireframe-description {
         font-size: 125%;
     }
 }
+
+.wireframe-preview{
+    max-height: 80vh;
+    max-width: 80vw;
+}
+
+.wireframe-preview, .wireframe{
+    border-radius: 10px;
+    border: solid 1px $light-gray;
+}
+
+.modal-header {
+    a {
+        &.close-modal {
+            text-decoration: none;
+            font-size: 150%;
+        }
+        &.active {
+            color: $medium-gray;
+            &:hover{
+                color: black;
+                @include transition(all .3s ease-out);
+            }
+        }
+        &.disabled {
+            color: black;
+            pointer-events: none;
+        } 
+    }
+
+    .close {
+        padding: 0;
+        margin: 0 0 0 1em;
+    }
+}
+
+
+
+
+// .modal-content {
+//     background: transparent !important;
+// }
+
+// .modal {
+//     text-align: center;
+// }
+
+// .modal-dialog {
+//     text-align: left; /* you'll likely want this */
+//     max-width: 100%;
+//     width: auto !important;
+//     display: inline-block;
+// }
+
+// .modal {
+//     padding: 1%;
+//     min-width: auto;
+//     max-width: fit-content;
+// }
+// .modal-lg {
+   
+// }
+
+.modal-dialog {
+    width: auto !important;
+    max-width: 1920px !important; // Optional, maximum width
+  }

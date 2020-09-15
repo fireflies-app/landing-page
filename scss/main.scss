@@ -20,8 +20,12 @@ body {
     font-size: 18px;
     font-family: 'Jaldi', sans-serif !important;
     margin: 0 !important;
-    background: $bg !important;
     color: black !important;
+    background: $bg !important;
+    
+}
+body {
+    overflow: overlay !important;
 }
 
 section {
@@ -55,9 +59,9 @@ b {
 
 // vertically and horizontally centers child element 
 .hv-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
 }
 
 .regular-heading {
@@ -65,12 +69,12 @@ b {
 }
 
 .large-heading {
-    font-size: 5rem;
+    font-size: 2.75rem;
     font-weight: 900;
 }
 
 .medium-heading {
-    font-size: 3rem;
+    font-size: 2.25rem;
     font-weight: 900;
 }
 
@@ -79,64 +83,24 @@ b {
     font-weight: 900;
 }
 
-.rounded-img {
-    border-radius: 31px;
-}
+@media only screen and (min-width:1050px) {
+    .large-heading {
+        font-size: 3.5rem;
+    }
+    
+    .medium-heading {
+        font-size: 2.75rem;
+    }
 
-.subscribe-form {
-    display: inline-block;
-    position: relative;
-
-    .rounded-input {
-        border-radius: 50px;
-        box-shadow: 2px 2px 5px $gray;
-        border: none;
-        height: 50px;
-        color: $gray;
-        padding-left: 20px;
-
-        &:focus {
-            outline: none;
+    #home {
+        h3 {
+            font-size: 2rem;
         }
     }
-
-    p {
-        display: inline-block;
-    }
-
-    .submit-button {
-        position: absolute;
-        height: 70%;
-        width: 20%;
-        top: 15%;
-        right: 10px;
-        border-radius: 50px;
-        border: transparent;
-        background: $gold;
-        font-weight: 900;
-
-        &:focus {
-            outline: none;
-        }
-    }
-
-    .wpcf7-not-valid-tip {
-        position: absolute;
-    }
-
 }
 
-.wpcf7-response-output,
-.ajax-loader {
-    position: absolute;
-    width: 100%;
-    margin: 1em 0 !important;
-}
-
-.wpcf7-not-valid-tip {
-    margin: auto;
-}
-
+@import 'scrollbar';
+@import 'form';
 @import 'navbar';
 @import 'home';
 @import 'fireflies-banner';

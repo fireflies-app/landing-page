@@ -16,7 +16,7 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <!-- Brand -->
         <a class="navbar-brand" href="<?php echo get_site_url(); ?>">
-            <img id="navbar-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-glow.png"
+            <img id="navbar-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-white.png"
                 alt="Logo">
         </a>
 
@@ -27,12 +27,12 @@
 
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-            <ul class="navbar-nav ml-auto d-flex align-items-center">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item mx-2">
-                    <a class="nav-link text-nowrap" href="<?php echo get_site_url(); ?>#why-fireflies">Why Fireflies</a>
+                    <a class="nav-link text-nowrap" href="<?php echo get_site_url(); ?>#why-fireflies">How It Works</a>
                 </li>
                 <li class="nav-item mx-2">
-                    <a class="nav-link text-nowrap" href="<?php echo get_site_url(); ?>#ways-to-spread-love">Ways to Spread Love</a>
+                    <a class="nav-link text-nowrap" href="<?php echo get_site_url(); ?>#ways-to-spread-love">Ways to Spark Change</a>
                 </li>
                 <li class="nav-item mx-2">
                     <a class="nav-link text-nowrap" href="<?php echo get_site_url(); ?>#footer">Contact Us</a>

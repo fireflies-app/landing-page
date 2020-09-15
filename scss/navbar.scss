@@ -1,8 +1,82 @@
-.nav-link {
-    color: white !important;
-    border: solid 2px white;
-    border-radius: 50px;
-    &:hover {
-        color: $gold !important
+
+
+.navbar {
+    width: 100vw;
+    background-color: $bg;
+
+    #navbar-logo {
+        width: 40px;
+    }
+    
+    .nav-link {
+        color: white !important;
+        border: solid 2px white;
+        border-radius: 50px;
+        &:hover {
+            color: $gold !important
+        }
+    }
+
+    .navbar-toggler {
+        border-color: transparent !important;
+
+        &:focus {
+            outline: none;
+        }
+
+        &:hover {
+            filter: brightness(1.25);
+        }
+    }
+
+    #hamburger-menu {
+        color: $gold;
+    }
+
+    // fullscreen dropdown 
+    .navbar-nav {
+        height: 100vh;
+        font-size: 75%;
+        flex: .65;
+        justify-content: center;
+
+        .nav-item {
+            margin: 1em .5em !important;
+            font-size: 200%;
+
+            .nav-link {
+                padding: .5em 1em;
+                font-weight: 700;
+                text-align: center;
+                transition: all 0.25s ease-out;
+
+                &:hover {
+                    filter: brightness(1.25);
+                }
+            }
+
+            a {
+                margin: 0;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .navbar {
+        background-color: #0a0b20f8;
+        font-size: 150%;
+
+        .navbar-brand {
+            margin-left: 35px;
+        }
+        .navbar-nav {
+            height: initial;
+            justify-content: flex-end;
+
+            .nav-item {
+                font-size: 100%;
+            }
+        }
     }
 }

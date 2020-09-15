@@ -1,0 +1,67 @@
+.subscribe-form {
+    display: inline-block;
+    position: relative;
+
+    .rounded-input {
+        border-radius: 50px;
+        box-shadow: 2px 2px 5px $gray;
+        border: none;
+        height: 50px;
+        width: 300px;
+        color: $gray;
+        padding-left: 20px;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    p {
+        display: inline-block;
+    }
+
+    .submit-button {
+        position: absolute;
+        height: 70%;
+        width: 30%;
+        top: 15%;
+        right: 10px;
+        border-radius: 50px;
+        border: transparent;
+        background: $gold;
+        font-weight: 900;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .wpcf7-not-valid-tip {
+        position: absolute;
+    }
+
+}
+
+.wpcf7-response-output,
+.ajax-loader {
+    position: absolute;
+    width: 100%;
+    margin: 1em 0 !important;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.wpcf7-not-valid-tip {
+    margin: auto;
+}
+
+.wpcf7 {
+    display: inline-block !important;
+    .wpcf7-response-output {
+        position: relative;
+    }
+}
+
+.wpcf7 form.sent .wpcf7-response-output {
+    border-color: $gold;
+}
