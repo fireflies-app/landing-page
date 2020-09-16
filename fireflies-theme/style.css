@@ -268,7 +268,7 @@ a {
     min-height: 70vh; } }
 
 #why-fireflies {
-  background: #f8e083;
+  background: linear-gradient(180deg, #F8E083 0%, #F8E083 12.19%, #FFD494 33.01%, #FFF2C1 55.36%, #FFD494 76.19%, #F8E083 97.52%), #F8E083;
   padding-bottom: 0; }
   #why-fireflies b {
     color: black; }
