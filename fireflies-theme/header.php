@@ -35,6 +35,9 @@
                     <a class="nav-link text-nowrap" href="<?php echo get_site_url(); ?>#ways-to-spark-change">Ways to Spark Change</a>
                 </li>
                 <li class="nav-item mx-2">
+                    <a class="nav-link text-nowrap" href="<?php echo get_site_url(); ?>/careers">Careers</a>
+                </li>
+                <li class="nav-item mx-2">
                     <a class="nav-link text-nowrap" href="<?php echo get_site_url(); ?>#footer">Contact Us</a>
                 </li>
             </ul>

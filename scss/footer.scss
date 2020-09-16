@@ -4,10 +4,11 @@
     #main-footer {
         margin-top: 7.5em;
     }
-    a{
+    a {
         display: inline-block;
         margin: 0 .5em;
         color: white;
+        text-decoration: none;
 
         &:hover {
             color: $gold;
@@ -28,9 +29,5 @@
 
     #footer-contact {
         font-weight: 900;
-
-        a{
-            text-decoration: none;
-        }
     }
 }

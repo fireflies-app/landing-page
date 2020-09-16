@@ -1,0 +1,61 @@
+#careers {
+    color: white;
+
+    .nav-pills {
+        flex-direction: column;
+        .nav-item {
+            .nav-link {
+                display: inline-block;
+                width: 100%;
+                text-align: left;
+                margin: 2rem 0;
+                padding: 1rem;
+                border: solid 2px $gray;
+                border-radius: 30px;
+                background: transparent;
+                color: white;
+                font-weight: 900;
+
+                &:hover {
+                    @include transition (all .3s ease-out);
+                    background: $gold;
+                    color: black !important;
+                    border: solid 2px $gold;
+                }
+                
+                &.active {
+                    background: $gold;
+                    color: black;
+                    border: solid 2px $gold;
+                }
+            }
+        }
+    }
+
+    .tab-pane {
+        text-align: left;
+        h5, p {
+            margin-bottom: 1rem !important;
+        }
+    }
+
+    .tab-content {
+        color: white;
+        border: solid 2px $gray;
+        border-radius: 10px;
+        ul {
+            text-align: left;
+        }
+    }
+
+    a {
+        display: inline-block;
+        margin: 0;
+        color: $gold;
+        text-decoration: none;
+
+        &:hover {
+            color: white;
+        }
+    }
+}

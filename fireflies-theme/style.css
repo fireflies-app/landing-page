@@ -37,7 +37,9 @@ h4,
 h5,
 h6 {
   margin: 0 !important;
-  display: inline-block; }
+  display: inline-block;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900; }
 
 p,
 a {
@@ -45,7 +47,20 @@ a {
   display: inline-block; }
 
 .btn {
-  border-radius: 0; }
+  border-radius: 30px;
+  background: #f8e083;
+  border: solid 2px #f8e083;
+  color: black !important;
+  font-weight: 900;
+  padding: .75rem 3rem; }
+  .btn:hover {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    background: transparent;
+    color: white !important; }
 
 .hv-center {
   display: flex !important;
@@ -392,6 +407,52 @@ a {
   #ways-to-spark-change .change-descriptions {
     width: 100%; } }
 
+#careers {
+  color: white; }
+  #careers .nav-pills {
+    flex-direction: column; }
+    #careers .nav-pills .nav-item .nav-link {
+      display: inline-block;
+      width: 100%;
+      text-align: left;
+      margin: 2rem 0;
+      padding: 1rem;
+      border: solid 2px #686868;
+      border-radius: 30px;
+      background: transparent;
+      color: white;
+      font-weight: 900; }
+      #careers .nav-pills .nav-item .nav-link:hover {
+        -webkit-transition: all 0.3s ease-out;
+        -moz-transition: all 0.3s ease-out;
+        -ms-transition: all 0.3s ease-out;
+        -o-transition: all 0.3s ease-out;
+        transition: all 0.3s ease-out;
+        background: #f8e083;
+        color: black !important;
+        border: solid 2px #f8e083; }
+      #careers .nav-pills .nav-item .nav-link.active {
+        background: #f8e083;
+        color: black;
+        border: solid 2px #f8e083; }
+  #careers .tab-pane {
+    text-align: left; }
+    #careers .tab-pane h5, #careers .tab-pane p {
+      margin-bottom: 1rem !important; }
+  #careers .tab-content {
+    color: white;
+    border: solid 2px #686868;
+    border-radius: 10px; }
+    #careers .tab-content ul {
+      text-align: left; }
+  #careers a {
+    display: inline-block;
+    margin: 0;
+    color: #f8e083;
+    text-decoration: none; }
+    #careers a:hover {
+      color: white; }
+
 #footer {
   padding: 10vh 0;
   color: white; }
@@ -400,7 +461,8 @@ a {
   #footer a {
     display: inline-block;
     margin: 0 .5em;
-    color: white; }
+    color: white;
+    text-decoration: none; }
     #footer a:hover {
       color: #f8e083; }
     #footer a i {
@@ -411,5 +473,3 @@ a {
     color: #686868; }
   #footer #footer-contact {
     font-weight: 900; }
-    #footer #footer-contact a {
-      text-decoration: none; }

@@ -43,6 +43,8 @@ h5,
 h6 {
     margin: 0 !important;
     display: inline-block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900;
 }
 
 p,
@@ -57,7 +59,17 @@ b {
 }
 
 .btn {
-    border-radius: 0;
+    border-radius: 30px;
+    background: $gold;
+    border: solid 2px $gold;
+    color: black !important;
+    font-weight: 900;
+    padding: .75rem 3rem;
+    &:hover {
+        @include transition (all .3s ease-out);
+        background: transparent;
+        color: white !important;
+    }
 }
 
 // vertically and horizontally centers child element 
@@ -126,4 +138,5 @@ b {
 @import 'why-fireflies';
 @import 'wavy-splitter';
 @import 'ways-to-spark-change';
+@import 'careers';
 @import 'footer';
