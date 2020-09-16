@@ -148,7 +148,7 @@
                 </div>
             </div>
             <div class="col-12 col-md-3 d-flex flex-column text-center">
-                <img class="change-icon mx-auto" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/document.png" alt="Learn" data-aos="flip-left" data-aos-duration="1000">
+                <img class="change-icon mx-auto" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/learn.png" alt="Learn" data-aos="flip-left" data-aos-duration="1000">
                 <div class="mt-auto" data-aos="zoom-in-up" data-aos-duration="500" data-aos-offset="300">
                     <h3 class="d-block text-center small-heading">Learn</h4>
                     <p class="mt-3 change-descriptions mx-auto text-center">Educate yourself so that you can educate others.</p>
