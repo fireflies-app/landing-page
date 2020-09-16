@@ -18,10 +18,10 @@ body {
     scroll-behavior: smooth;
     box-sizing: border-box;
     font-size: 18px;
-    font-family: 'Jaldi', sans-serif !important;
+    font-family: 'Roboto', sans-serif !important;
     margin: 0 !important;
     color: black !important;
-    background: $bg !important;
+    background: black !important;
     // overflow-x:hidden !important;
 }
 body {
@@ -52,7 +52,7 @@ a {
 }
 
 b {
-    color: $gold;
+    // color: $gold;
 }
 
 .btn {
@@ -70,6 +70,10 @@ b {
     font-weight: 400 !important;
 }
 
+.large-heading, .medium-heading, .small-heading {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 .large-heading {
     font-size: 2.75rem;
     font-weight: 900;
@@ -81,7 +85,7 @@ b {
 }
 
 .small-heading {
-    font-size: 100%;
+    font-size: 1.5rem;
     font-weight: 900;
 }
 
@@ -107,5 +111,6 @@ b {
 @import 'home';
 @import 'fireflies-banner';
 @import 'why-fireflies';
-@import 'ways-to-spread-love';
+@import 'wavy-splitter';
+@import 'ways-to-spark-change';
 @import 'footer';

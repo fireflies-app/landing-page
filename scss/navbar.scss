@@ -2,7 +2,7 @@
 
 .navbar {
     width: 100vw;
-    background-color: $bg;
+    background-color: black;
 
     #navbar-logo {
         width: 40px;
@@ -64,7 +64,7 @@
 
 @media only screen and (min-width: 992px) {
     .navbar {
-        background-color: #0a0b20f8;
+        // background-color: #0a0b20f8;
         font-size: 150%;
         height: 85px !important;
 

@@ -7,7 +7,8 @@ Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
-@import url("https://fonts.googleapis.com/css2?family=Jaldi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap");
 html,
 body {
   width: 100%;
@@ -15,10 +16,10 @@ body {
   scroll-behavior: smooth;
   box-sizing: border-box;
   font-size: 18px;
-  font-family: 'Jaldi', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
   margin: 0 !important;
   color: black !important;
-  background: #0a0b20 !important; }
+  background: black !important; }
 
 body {
   overflow: overlay !important; }
@@ -42,9 +43,6 @@ a {
   margin-bottom: 0 !important;
   display: inline-block; }
 
-b {
-  color: #f8e083; }
-
 .btn {
   border-radius: 0; }
 
@@ -56,6 +54,9 @@ b {
 .regular-heading {
   font-weight: 400 !important; }
 
+.large-heading, .medium-heading, .small-heading {
+  font-family: 'Source Sans Pro', sans-serif; }
+
 .large-heading {
   font-size: 2.75rem;
   font-weight: 900; }
@@ -65,7 +66,7 @@ b {
   font-weight: 900; }
 
 .small-heading {
-  font-size: 100%;
+  font-size: 1.5rem;
   font-weight: 900; }
 
 @media only screen and (min-width: 1050px) {
@@ -140,7 +141,7 @@ b {
 
 .navbar {
   width: 100vw;
-  background-color: #0a0b20; }
+  background-color: black; }
   .navbar #navbar-logo {
     width: 40px; }
   .navbar .nav-link {
@@ -177,7 +178,6 @@ b {
 
 @media only screen and (min-width: 992px) {
   .navbar {
-    background-color: #0a0b20f8;
     font-size: 150%;
     height: 85px !important; }
     .navbar .navbar-brand {
@@ -192,6 +192,10 @@ b {
   color: white;
   min-height: 50vh;
   padding: 10vh 0; }
+  #home #movement {
+    text-decoration: underline;
+    text-decoration-color: #f8e083;
+    text-decoration-style: dotted; }
   #home .large-heading {
     font-size: 1.5rem; }
   #home h3 {
@@ -264,7 +268,8 @@ b {
     min-height: 70vh; } }
 
 #why-fireflies {
-  background: #f8e083; }
+  background: #f8e083;
+  padding-bottom: 0; }
   #why-fireflies b {
     color: black; }
   #why-fireflies .row {
@@ -315,29 +320,54 @@ b {
   width: auto !important;
   max-width: 1920px !important; }
 
-#ways-to-spread-love {
-  background: #f8e083; }
-  #ways-to-spread-love b {
-    color: black;
-    font-weight: 900; }
-  #ways-to-spread-love .circle {
-    background: #0a0b20;
-    border-radius: 50%;
-    width: 300px;
-    height: 300px;
-    color: white; }
+#splitter {
+  min-height: 20vh;
+  position: relative;
+  padding: 0; }
+
+#wavy-splitter {
+  min-height: 40vh;
+  top: -30vh;
+  left: -10vw;
+  width: 120vw;
+  position: absolute;
+  padding: 0;
+  background: #f8e083;
+  border-radius: 0 0 45% 45%; }
+
+@media only screen and (min-width: 1200px) {
+  #wavy-splitter {
+    min-height: 50vh;
+    top: -35vh;
+    border-radius: 0 0 50% 50%; } }
+
+#ways-to-spark-change {
+  color: white; }
+  #ways-to-spark-change #spark {
+    text-decoration: underline;
+    text-decoration-color: #f8e083; }
+  #ways-to-spark-change .change-icon {
+    width: 50%; }
+  #ways-to-spark-change .change-descriptions {
+    width: 50%; }
+
+@media only screen and (min-width: 768px) {
+  #ways-to-spark-change .change-icon {
+    width: 75%; }
+  #ways-to-spark-change .change-descriptions {
+    width: 100%; } }
 
 #footer {
   padding: 10vh 0;
-  background: #f8e083; }
+  color: white; }
   #footer #main-footer {
     margin-top: 7.5em; }
   #footer a {
     display: inline-block;
     margin: 0 .5em;
-    color: black; }
+    color: white; }
     #footer a:hover {
-      color: white; }
+      color: #f8e083; }
     #footer a i {
       font-size: 2rem; }
   #footer #footer-logo {

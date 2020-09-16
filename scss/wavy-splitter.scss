@@ -1,0 +1,24 @@
+#splitter {
+    min-height: 20vh;
+    position: relative;
+    padding: 0;
+}
+
+#wavy-splitter {
+    min-height: 40vh;
+    top: -30vh;
+    left: -10vw;
+    width: 120vw;
+    position: absolute;
+    padding: 0;
+    background: $gold;
+    border-radius: 0 0 45% 45%;
+}
+
+@media only screen and (min-width: 1200px) {
+    #wavy-splitter {
+        min-height: 50vh;
+        top: -35vh;
+        border-radius: 0 0 50% 50%;
+    }
+}

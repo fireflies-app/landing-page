@@ -1,0 +1,25 @@
+#ways-to-spark-change {
+    color: white;
+    #spark {
+        text-decoration: underline;
+        text-decoration-color: $gold;
+        // text-decoration-style
+    }
+    .change-icon {
+        width: 50%;
+    }
+    .change-descriptions {
+        width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #ways-to-spark-change {
+        .change-icon {
+            width: 75%;
+        }
+        .change-descriptions {
+            width: 100%;
+        }
+    }
+}

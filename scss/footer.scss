@@ -1,16 +1,16 @@
 #footer {
     padding: 10vh 0;
-    background: $gold;
+    color: white;
     #main-footer {
         margin-top: 7.5em;
     }
     a{
         display: inline-block;
         margin: 0 .5em;
-        color: black;
+        color: white;
 
         &:hover {
-            color: white;
+            color: $gold;
         }
 
         i{

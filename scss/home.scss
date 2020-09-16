@@ -2,6 +2,11 @@
     color: white;
     min-height: 50vh;
     padding: 10vh 0;
+    #movement {
+        text-decoration: underline;
+        text-decoration-color: $gold;
+        text-decoration-style: dotted;
+    }
     .large-heading {
         font-size: 1.5rem;
     }
