@@ -18,9 +18,14 @@
     .wireframe-description {
         font-size: 125%;
     }
+
+    #how-it-works-heading {
+        text-decoration: underline;
+        text-decoration-color: white;
+    }
 }
 
-.wireframe-preview{
+.wireframe-preview {
     max-height: 80vh;
     max-width: 80vw;
 }
@@ -54,33 +59,6 @@
         margin: 0 0 0 1em;
     }
 }
-
-
-
-
-// .modal-content {
-//     background: transparent !important;
-// }
-
-// .modal {
-//     text-align: center;
-// }
-
-// .modal-dialog {
-//     text-align: left; /* you'll likely want this */
-//     max-width: 100%;
-//     width: auto !important;
-//     display: inline-block;
-// }
-
-// .modal {
-//     padding: 1%;
-//     min-width: auto;
-//     max-width: fit-content;
-// }
-// .modal-lg {
-   
-// }
 
 .modal-dialog {
     width: auto !important;

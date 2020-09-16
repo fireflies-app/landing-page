@@ -12,25 +12,25 @@
 
 @media only screen and (min-width:700px) {
     #fireflies-banner {
-        min-height: 50vh;
+        min-height: 55vh;
     }
 }
 
 @media only screen and (min-width:900px) {
     #fireflies-banner {
-        min-height: 60vh;
+        min-height: 65vh;
     }
 }
 
 @media only screen and (min-width:1050px) {
     #fireflies-banner {
-        min-height: 65vh;
+        min-height: 70vh;
     }
 }
 
 @media only screen and (min-width:1200px) {
     #fireflies-banner {
-        min-height: 60vh;
+        min-height: 65vh;
         #banner-firefly {
             left: 28%;
             width: 60px;
@@ -40,6 +40,12 @@
 
 @media only screen and (min-width:1400px) {
     #fireflies-banner {
-        min-height: 70vh;
+        min-height: 75vh;
+    }
+}
+
+@media only screen and (min-width:2500px) {
+    #fireflies-banner {
+        min-height: 110vh;
     }
 }

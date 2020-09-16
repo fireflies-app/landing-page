@@ -4,7 +4,7 @@
 
 <section class="hv-center" id="home">
     <div class="container" id="home-content">
-        <h1 class="large-heading" data-aos="fade-up">Alone a speck, together a
+        <h1 class="large-heading position-relative" data-aos="fade-up">Alone a <span id="speck"></span> speck, together a
             <b id="movement">movement</b>.</h1> <br>
         <h3 class="mt-2" data-aos="fade-up">Welcome to <b>Fireflies</b>, a social media platform for changemakers. Make an impact by advocating for the causes that you care about.</h3>
         <div class="mt-5" data-aos="fade-up" data-aos-duration="750">
@@ -20,7 +20,7 @@
 </section>
 
 <section id="why-fireflies">
-    <h1 class="d-block text-center medium-heading" data-aos="zoom-in-down">How It Works</h1>
+    <h1 class="d-block text-center medium-heading" id="how-it-works-heading" data-aos="zoom-in-down">How It Works</h1>
     <div class="container mt-5">
         <div class="row">
             <div class="col-12 col-md-6">
@@ -124,30 +124,30 @@
     <h1 class="d-block text-center medium-heading" data-aos="zoom-in-down" data-aos-offset="500">Ways to <b id="spark">Spark</b> Change</h1>
     <p class="d-block text-center" data-aos="zoom-in-down" data-aos-offset="500">supported by <strong>Fireflies</strong>
     </p>
-    <div class="container mt-5">
+    <div class="container-xl mt-5">
         <div class="row">
-            <div class="col-12 col-md-3 d-flex flex-column text-center">
+            <div class="col-12 col-md-3 d-flex flex-column text-center my-3">
                 <img class="change-icon mx-auto" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/donate.png" alt="Donate" data-aos="flip-left" data-aos-duration="1000">
                 <div class="text-center" data-aos="zoom-in-up" data-aos-duration="500" data-aos-offset="300">
                     <h3 class="d-block text-center small-heading">Donate</h4>
                     <p class="mt-3 change-descriptions mx-auto text-center">Donate to a charity of your choice. Every dollar counts.</p>
                 </div>
             </div>
-            <div class="col-12 col-md-3 d-flex flex-column text-center">
+            <div class="col-12 col-md-3 d-flex flex-column text-center my-3">
                 <img class="change-icon mx-auto" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/volunteer.png" alt="Volunteer" data-aos="flip-left" data-aos-duration="1000">
                 <div class="text-center" data-aos="zoom-in-up" data-aos-duration="500" data-aos-offset="300">
                     <h3 class="d-block text-center small-heading">Volunteer</h4>
                     <p class="mt-3 change-descriptions mx-auto text-center">Volunteer virtually or at a site near you.</p>
                 </div>
             </div>
-            <div class="col-12 col-md-3 d-flex flex-column text-center">
-                <img class="change-icon mx-auto mt-5" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/fireflies-text.png" alt="Petition" data-aos="flip-left" data-aos-duration="1000">
+            <div class="col-12 col-md-3 d-flex flex-column text-center my-3">
+                <img class="change-icon mx-auto" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/fireflies-text.png" alt="Petition" data-aos="flip-left" data-aos-duration="1000">
                 <div class="mt-auto" data-aos="zoom-in-up" data-aos-duration="500" data-aos-offset="300">
                     <h3 class="d-block text-center small-heading">Petition</h4>
                     <p class="mt-3 change-descriptions mx-auto text-center">Sign petitions to demonstrate public support.</p>
                 </div>
             </div>
-            <div class="col-12 col-md-3 d-flex flex-column text-center">
+            <div class="col-12 col-md-3 d-flex flex-column text-center my-3">
                 <img class="change-icon mx-auto" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/learn.png" alt="Learn" data-aos="flip-left" data-aos-duration="1000">
                 <div class="mt-auto" data-aos="zoom-in-up" data-aos-duration="500" data-aos-offset="300">
                     <h3 class="d-block text-center small-heading">Learn</h4>

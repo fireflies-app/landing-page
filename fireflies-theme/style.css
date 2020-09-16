@@ -8,6 +8,7 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap");
 html,
 body {
@@ -54,7 +55,9 @@ a {
 .regular-heading {
   font-weight: 400 !important; }
 
-.large-heading, .medium-heading, .small-heading {
+.large-heading,
+.medium-heading,
+.small-heading {
   font-family: 'Source Sans Pro', sans-serif; }
 
 .large-heading {
@@ -76,6 +79,14 @@ a {
     font-size: 2.75rem; }
   #home h3 {
     font-size: 2rem; } }
+
+@media only screen and (min-width: 1200px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1200px !important; } }
 
 ::-webkit-scrollbar {
   width: 10px; }
@@ -170,7 +181,8 @@ a {
         padding: .5em 1em;
         font-weight: 700;
         text-align: center;
-        transition: all 0.25s ease-out; }
+        transition: all 0.25s ease-out;
+        font-size: 1rem; }
         .navbar .navbar-nav .nav-item .nav-link:hover {
           filter: brightness(1.25); }
       .navbar .navbar-nav .nav-item a {
@@ -197,12 +209,22 @@ a {
     text-decoration-color: #f8e083;
     text-decoration-style: dotted; }
   #home .large-heading {
-    font-size: 1.5rem; }
+    font-size: 1.4rem; }
   #home h3 {
-    font-size: .9rem;
-    max-width: 75%; }
+    font-size: .8rem;
+    max-width: 75%;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif; }
   #home p {
     font-size: .75rem; }
+  #home #speck {
+    height: 10px;
+    width: 10px;
+    background-color: #f8e083;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 30%; }
 
 @media only screen and (min-width: 500px) {
   #home .large-heading {
@@ -217,23 +239,27 @@ a {
   #home {
     min-height: 70vh; }
     #home .large-heading {
-      font-size: 3.5rem; }
+      font-size: 3rem; }
     #home h3 {
-      font-size: 1.5rem; } }
+      font-size: 1.25rem; } }
 
 @media only screen and (min-width: 1200px) {
   #home {
     min-height: 60vh; }
     #home .large-heading {
-      font-size: 4rem; }
+      font-size: 3.5rem; }
     #home h3 {
-      font-size: 1.75rem; } }
+      font-size: 1.5rem; } }
 
 @media only screen and (min-width: 1400px) {
   #home {
     min-height: 70vh; }
     #home .large-heading {
-      font-size: 4.25rem; } }
+      font-size: 3.9rem; } }
+
+@media only screen and (min-width: 2500px) {
+  #home {
+    padding: 10vh 0 0 0; } }
 
 #fireflies-banner {
   background: url("../fireflies-theme/assets/images/fireflies-banner.png") 0 100%/100% no-repeat;
@@ -246,26 +272,30 @@ a {
 
 @media only screen and (min-width: 700px) {
   #fireflies-banner {
-    min-height: 50vh; } }
+    min-height: 55vh; } }
 
 @media only screen and (min-width: 900px) {
   #fireflies-banner {
-    min-height: 60vh; } }
+    min-height: 65vh; } }
 
 @media only screen and (min-width: 1050px) {
   #fireflies-banner {
-    min-height: 65vh; } }
+    min-height: 70vh; } }
 
 @media only screen and (min-width: 1200px) {
   #fireflies-banner {
-    min-height: 60vh; }
+    min-height: 65vh; }
     #fireflies-banner #banner-firefly {
       left: 28%;
       width: 60px; } }
 
 @media only screen and (min-width: 1400px) {
   #fireflies-banner {
-    min-height: 70vh; } }
+    min-height: 75vh; } }
+
+@media only screen and (min-width: 2500px) {
+  #fireflies-banner {
+    min-height: 110vh; } }
 
 #why-fireflies {
   background: linear-gradient(180deg, #F8E083 0%, #F8E083 12.19%, #FFD494 33.01%, #FFF2C1 55.36%, #FFD494 76.19%, #F8E083 97.52%), #F8E083;
@@ -285,6 +315,9 @@ a {
       filter: brightness(0.85); }
   #why-fireflies .wireframe-description {
     font-size: 125%; }
+  #why-fireflies #how-it-works-heading {
+    text-decoration: underline;
+    text-decoration-color: white; }
 
 .wireframe-preview {
   max-height: 80vh;
@@ -347,13 +380,15 @@ a {
     text-decoration: underline;
     text-decoration-color: #f8e083; }
   #ways-to-spark-change .change-icon {
-    width: 50%; }
+    width: 50%;
+    max-width: 50%; }
   #ways-to-spark-change .change-descriptions {
     width: 50%; }
 
 @media only screen and (min-width: 768px) {
   #ways-to-spark-change .change-icon {
-    width: 75%; }
+    width: 75%;
+    max-width: 75%; }
   #ways-to-spark-change .change-descriptions {
     width: 100%; } }
 

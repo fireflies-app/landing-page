@@ -24,6 +24,7 @@ body {
     background: black !important;
     // overflow-x:hidden !important;
 }
+
 body {
     overflow: overlay !important;
 }
@@ -70,7 +71,9 @@ b {
     font-weight: 400 !important;
 }
 
-.large-heading, .medium-heading, .small-heading {
+.large-heading,
+.medium-heading,
+.small-heading {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -93,7 +96,7 @@ b {
     .large-heading {
         font-size: 3.5rem;
     }
-    
+
     .medium-heading {
         font-size: 2.75rem;
     }
@@ -102,6 +105,16 @@ b {
         h3 {
             font-size: 2rem;
         }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1200px !important;
     }
 }
 
