@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <title>Fireflies</title>
     <!-- Description, Keywords and Author -->
-    <meta name="description" content="">
-    <meta name="keywords" content="">
+    <meta name="description" content="Welcome to Fireflies, a social media platform for changemakers. Make an impact by advocating for the causes that you care about.">
+    <meta name="keywords" content="Fireflies, social media, platform, advocacy, impact, non-profit, donate, volunteer, petition, learn">
+    <meta name="thumbnail" content="<?php echo get_template_directory_uri(); ?>/assets/images/wireframes/explore.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php wp_head(); //includes scripts and stylesheets ?>
 </head>
