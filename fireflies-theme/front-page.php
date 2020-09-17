@@ -15,8 +15,11 @@
 </section>
 
 <section id="fireflies-banner" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="-300">
-    <img id="banner-firefly" src="<?php echo get_template_directory_uri() ?>/assets/images/logos/logo-white.png"
-        alt="Logo White" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="-300" data-aos-easing="ease-out-cubic">
+    <div id="dispersion-overlay">
+        <img id="banner-firefly" src="<?php echo get_template_directory_uri() ?>/assets/images/logos/logo-white.png"
+            alt="Logo White" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="-300" data-aos-easing="ease-out-cubic">
+        <img id="dispersion" src="<?php echo get_template_directory_uri() ?>/assets/images/fireflies-banner.png" alt="">
+    </div>
 </section>
 
 <section id="why-fireflies">

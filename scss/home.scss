@@ -1,7 +1,12 @@
 #home {
     color: white;
-    min-height: 50vh;
+    min-height: 70vh;
     padding: 85px 0 10vh 0;
+
+    .container {
+        padding-right: 25px;
+        padding-left: 25px;
+    }
 
     #movement {
         text-decoration: underline;
@@ -10,7 +15,7 @@
     }
 
     .large-heading {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 
     h3 {

@@ -144,6 +144,16 @@ a {
     }
 }
 
+@media only screen and (min-width: 2500px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1800px !important;
+    }
+}
+
 @import 'scrollbar';
 @import 'form';
 @import 'navbar';
