@@ -9,10 +9,10 @@
     <div class="container w-75" id="main-footer" data-aos="zoom-in-down">
         <div class="row text-center">
             <div class="col-12 col-md-4 hv-center my-2" id="social-media-icons">
-                <a href="https://www.facebook.com/thefirefliesapp"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/fireflies.app/"><i class="fab fa-instagram"></i></a>
-                <a href="https://twitter.com/thefirefliesapp"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.linkedin.com/company/firefliesapp"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.facebook.com/thefirefliesapp" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/fireflies.app/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/thefirefliesapp" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/company/firefliesapp" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
             <div class="col-12 col-md-4 hv-center my-2" id="footer-logo">
                 <div>
