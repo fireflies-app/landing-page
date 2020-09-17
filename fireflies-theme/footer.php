@@ -1,9 +1,9 @@
 <!-- footer -->
 <footer class="text-center" id="footer">
-    <h4 class="small-heading w-75" data-aos="zoom-in-down" data-aos-offset="300">
+    <h4 class="small-heading w-75" data-aos="zoom-in-down" data-aos-offset="150">
         Sign up on our waiting list to hear about our launch.
     </h4>
-    <div class="mt-3" data-aos="zoom-in-down" data-aos-offset="300">
+    <div class="mt-3" data-aos="zoom-in-down" data-aos-offset="150">
         <?php echo do_shortcode('[contact-form-7 id="6" title="Contact form 1"]'); ?>
     </div>
     <div class="container w-75" id="main-footer" data-aos="zoom-in-down">

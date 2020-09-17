@@ -189,9 +189,7 @@ a {
   border-color: #f8e083; }
 
 .navbar {
-  width: 100vw;
-  background-color: black;
-  height: 70px; }
+  background: black; }
   .navbar .navbar-brand {
     color: white;
     font-family: 'Source Sans Pro', sans-serif;
