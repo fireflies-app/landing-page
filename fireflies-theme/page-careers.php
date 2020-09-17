@@ -9,9 +9,13 @@
                 <h1 class="large-heading">We're Recruiting!</h1>
             </div>
             <div class="col-12 order-lg-3 hv-center">
-                <p class="my-3 my-lg-5">Join Fireflies' dynamic, fast-growing team that seeks to transform the way people advocate for global and local issues. We are looking for talented individuals who are passionate about social impact, have a strong willingness to learn, and wish to participate in a fast-paced startup scene. At Fireflies, you will collaborate with cross-functional teams to deliver creative solutions that propel our mission forward.</p>
+                <p class="my-3 my-lg-5 text-left">Join Fireflies' dynamic, fast-growing team that seeks to transform the
+                    way people advocate for global and local issues. We are looking for talented individuals who are
+                    passionate about social impact, have a strong willingness to learn, and wish to participate in a
+                    fast-paced startup scene. At Fireflies, you will collaborate with cross-functional teams to deliver
+                    creative solutions that propel our mission forward.</p>
             </div>
-            <div class="col-12 col-lg-5 order-lg-2 hv-center">
+            <div class="col-12 col-lg-5 order-lg-2 d-none hv-center d-lg-flex">
                 <a class="btn" target="_blank"
                     href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
             </div>
@@ -36,8 +40,7 @@
                         <a class="nav-link" data-toggle="pill" href="#pmm">Product Marketing Manager</a>
                     </li>
                 </ul>
-
-                <p class="mt-5 text-left">Have questions? Contact us at <a
+                <p class="mt-5 text-left d-none d-lg-inline-block">Have questions? Contact us at <a
                         href="mailto:hello@fireflies.app">hello@fireflies.app</a></p>
             </div>
             <div class="col-12 col-lg-8">
@@ -90,6 +93,9 @@
 
                         <p> <b>Minimum Hours</b>: 15-20 hours per week</p>
                         <br>
+                        <p>*We are an early stage startup looking to secure funding within the next year. All positions
+                            are unpaid at the moment until further notice.</p>
+                        <br>
                         <div class="my-5 text-center">
                             <a class="btn  mx-auto" target="_blank"
                                 href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
@@ -131,6 +137,9 @@
                         </ul>
 
                         <p> <b>Minimum Hours</b>: 15-20 hours per week</p>
+                        <br>
+                        <p>*We are an early stage startup looking to secure funding within the next year. All positions
+                            are unpaid at the moment until further notice.</p>
                         <br>
                         <div class="my-5 text-center">
                             <a class="btn  mx-auto" target="_blank"
@@ -185,6 +194,9 @@
                         </ul>
                         <p> <b>Minimum Hours </b>: 10-15 hours per week</p>
                         <br>
+                        <p>*We are an early stage startup looking to secure funding within the next year. All positions
+                            are unpaid at the moment until further notice.</p>
+                        <br>
                         <div class="my-5 text-center">
                             <a class="btn  mx-auto" target="_blank"
                                 href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
@@ -202,7 +214,8 @@
 
                         <p> Our marketing team is currently divided up into two different areas of expertise: </p>
 
-                        <p> <b>Socials team</b> is in charge of driving the strategy and content that will reach users
+                        <p> <b class="underline">Socials team</b> is in charge of driving the strategy and content that
+                            will reach users
                             both preand postMVP launch through various communication methods, including social media and
                             email outreach.</p>
 
@@ -215,7 +228,8 @@
                             <li> Perform regular site visits, monitoring all on-going marketing campaigns on social
                                 media</li>
                         </ul>
-                        <p> <b>Outreach team</b> spearheads creating partnerships and collaborations with like-minded
+                        <p> <b class="underline">Outreach team</b> spearheads creating partnerships and collaborations
+                            with like-minded
                             groups, individuals, and organizations to increase brand recognition, facilitate promotion,
                             and boost revenue.</p>
 
@@ -231,13 +245,16 @@
 
                         <p> <b>Minimum Hours</b>: 10-15 hours per week</p>
                         <br>
+                        <p>*We are an early stage startup looking to secure funding within the next year. All positions
+                            are unpaid at the moment until further notice.</p>
+                        <br>
                         <div class="my-5 text-center">
                             <a class="btn  mx-auto" target="_blank"
                                 href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
                         </div>
                     </div>
                     <div id="pmm" class="container tab-pane fade"><br>
-                    <h5>Product Marketing Manager</h5>
+                        <h5>Product Marketing Manager</h5>
                         <p> We are looking for a Product Marketing Manager (PMM) who is both design-savvy and strategic
                             thinkers that can build a higher-level marketing strategy that best builds brand awareness
                             of our product and hooks users. PMM is someone who can provide leadership, guidance, and
@@ -283,6 +300,9 @@
 
                         <p> <b>Minimum Hours</b>: 20-25 hours per week</p>
                         <br>
+                        <p>*We are an early stage startup looking to secure funding within the next year. All positions
+                            are unpaid at the moment until further notice.</p>
+                        <br>
                         <div class="my-5 text-center">
                             <a class="btn  mx-auto" target="_blank"
                                 href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
@@ -290,6 +310,8 @@
                     </div>
                 </div>
             </div>
+            <p class="mt-5 text-center d-block w-100 d-lg-none">Have questions? Contact us at <a
+                    href="mailto:hello@fireflies.app">hello@fireflies.app</a></p>
         </div>
     </div>
 </section>
