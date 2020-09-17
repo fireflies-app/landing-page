@@ -21,7 +21,7 @@
 
     #how-it-works-heading {
         text-decoration: underline;
-        text-decoration-color: white;
+        // text-decoration-color: black;
     }
 }
 
@@ -36,10 +36,11 @@
 }
 
 .modal-header {
+    padding: .5rem .5rem;
     a {
         &.close-modal {
             text-decoration: none;
-            font-size: 150%;
+            font-size: .5rem;
         }
         &.active {
             color: $medium-gray;
@@ -57,10 +58,25 @@
     .close {
         padding: 0;
         margin: 0 0 0 1em;
+        font-size: .5rem;
     }
 }
 
 .modal-dialog {
     width: auto !important;
     max-width: 1920px !important; // Optional, maximum width
-  }
+}
+
+@media only screen and (min-width: 768px) {
+    .modal-header {
+        a {
+            &.close-modal {
+                font-size: 1rem;
+            }
+        }
+    
+        .close {
+            font-size: .8rem;
+        }
+    }
+}

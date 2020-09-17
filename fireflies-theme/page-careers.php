@@ -4,20 +4,16 @@
 
 <section class="text-center" id="careers">
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-lg-6 text-left mb-5">
-                <h1 class="large-heading mb-3">We're recruiting!</h1>
-                <p>Join a dynamic, fast-growing team, one that fosters a fun and growth-oriented culture. We are a team
-                    of students
-                    and working professionals from various backgrounds looking to redefine the culture surrounding
-                    advocacy and
-                    spark change. Currently, we are looking to recruit talented individuals who are ready to work in a
-                    fast-paced
-                    environment, have a drive and willingness to learn, and interact with members from all around the
-                    world.</p>
+        <div class="row mb-5">
+            <div class="col-12 col-lg-6 text-left">
+                <h1 class="large-heading">We're Recruiting!</h1>
             </div>
-            <div class="col-12 col-lg-6 hv-center">
-                <a class="btn" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
+            <div class="col-12 order-lg-3 hv-center">
+                <p class="my-3 my-lg-5">Join Fireflies' dynamic, fast-growing team that seeks to transform the way people advocate for global and local issues. We are looking for talented individuals who are passionate about social impact, have a strong willingness to learn, and wish to participate in a fast-paced startup scene. At Fireflies, you will collaborate with cross-functional teams to deliver creative solutions that propel our mission forward.</p>
+            </div>
+            <div class="col-12 col-lg-5 order-lg-2 hv-center">
+                <a class="btn" target="_blank"
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
             </div>
         </div>
         <div class="row">
@@ -95,7 +91,8 @@
                         <p> <b>Minimum Hours</b>: 15-20 hours per week</p>
                         <br>
                         <div class="my-5 text-center">
-                            <a class="btn  mx-auto" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
+                            <a class="btn  mx-auto" target="_blank"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
                         </div>
                     </div>
                     <div id="back-end" class="container tab-pane fade"><br>
@@ -136,7 +133,8 @@
                         <p> <b>Minimum Hours</b>: 15-20 hours per week</p>
                         <br>
                         <div class="my-5 text-center">
-                            <a class="btn  mx-auto" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
+                            <a class="btn  mx-auto" target="_blank"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
                         </div>
                     </div>
                     <div id="business-dev" class="container tab-pane fade"> <br>
@@ -188,7 +186,8 @@
                         <p> <b>Minimum Hours </b>: 10-15 hours per week</p>
                         <br>
                         <div class="my-5 text-center">
-                            <a class="btn  mx-auto" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
+                            <a class="btn  mx-auto" target="_blank"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
                         </div>
                     </div>
                     <div id="marketing" class="container tab-pane fade"><br>
@@ -230,12 +229,15 @@
                                 Fireflies Student Ambassadors program</li>
                         </ul>
 
+                        <p> <b>Minimum Hours</b>: 10-15 hours per week</p>
                         <br>
                         <div class="my-5 text-center">
-                            <a class="btn  mx-auto" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
+                            <a class="btn  mx-auto" target="_blank"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
                         </div>
                     </div>
                     <div id="pmm" class="container tab-pane fade"><br>
+                    <h5>Product Marketing Manager</h5>
                         <p> We are looking for a Product Marketing Manager (PMM) who is both design-savvy and strategic
                             thinkers that can build a higher-level marketing strategy that best builds brand awareness
                             of our product and hooks users. PMM is someone who can provide leadership, guidance, and
@@ -279,9 +281,11 @@
                             <li> Experience with marketing analytics, automation and CRM tools</li>
                         </ul>
 
+                        <p> <b>Minimum Hours</b>: 20-25 hours per week</p>
                         <br>
                         <div class="my-5 text-center">
-                            <a class="btn  mx-auto" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
+                            <a class="btn  mx-auto" target="_blank"
+                                href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
                         </div>
                     </div>
                 </div>

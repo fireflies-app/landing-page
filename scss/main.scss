@@ -30,8 +30,8 @@ body {
 }
 
 section {
-    min-height: 100vh;
-    padding: 15vh 0;
+    min-height: 75vh;
+    padding: 0;
     overflow-x: hidden;
 }
 
@@ -51,11 +51,7 @@ p,
 a {
     margin-bottom: 0 !important;
     display: inline-block;
-    // display: block;
-}
-
-b {
-    // color: $gold;
+    font-size: 1rem;
 }
 
 .btn {
@@ -77,6 +73,10 @@ b {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
+}
+
+.gold-text {
+    color: $gold !important;
 }
 
 .regular-heading {
@@ -127,6 +127,16 @@ b {
     .container-sm,
     .container-xl {
         max-width: 1200px !important;
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 1250px !important;
     }
 }
 

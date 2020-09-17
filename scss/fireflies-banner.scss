@@ -7,6 +7,7 @@
         position: relative;
         width: 40px;
         left: 25%;
+        transform: rotate(-17.75deg);
     }
 }
 
@@ -30,6 +31,7 @@
 
 @media only screen and (min-width:1200px) {
     #fireflies-banner {
+        background: url('../fireflies-theme/assets/images/fireflies-banner.png') 0 102% / 100% no-repeat;
         min-height: 65vh;
         #banner-firefly {
             left: 28%;
@@ -42,6 +44,12 @@
     #fireflies-banner {
         min-height: 75vh;
     }
+}
+
+@media only screen and (min-width:2000px) {
+    #fireflies-banner {
+        background: url('../fireflies-theme/assets/images/fireflies-banner.png') 0 100% / 100% no-repeat;
+}
 }
 
 @media only screen and (min-width:2500px) {

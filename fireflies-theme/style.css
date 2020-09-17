@@ -26,8 +26,8 @@ body {
   overflow: overlay !important; }
 
 section {
-  min-height: 100vh;
-  padding: 15vh 0;
+  min-height: 75vh;
+  padding: 0;
   overflow-x: hidden; }
 
 h1,
@@ -44,7 +44,8 @@ h6 {
 p,
 a {
   margin-bottom: 0 !important;
-  display: inline-block; }
+  display: inline-block;
+  font-size: 1rem; }
 
 .btn {
   border-radius: 30px;
@@ -66,6 +67,9 @@ a {
   display: flex !important;
   align-items: center !important;
   justify-content: center !important; }
+
+.gold-text {
+  color: #f8e083 !important; }
 
 .regular-heading {
   font-weight: 400 !important; }
@@ -102,6 +106,14 @@ a {
   .container-sm,
   .container-xl {
     max-width: 1200px !important; } }
+
+@media only screen and (min-width: 1250px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1250px !important; } }
 
 ::-webkit-scrollbar {
   width: 10px; }
@@ -140,7 +152,7 @@ a {
     font-weight: 900;
     font-size: 2rem;
     line-height: 0;
-    color: #686868; }
+    color: black; }
     .subscribe-form .submit-button:focus {
       outline: none; }
   .subscribe-form .wpcf7-not-valid-tip {
@@ -167,7 +179,14 @@ a {
 
 .navbar {
   width: 100vw;
-  background-color: black; }
+  background-color: black;
+  height: 70px; }
+  .navbar .navbar-brand {
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 900; }
+    .navbar .navbar-brand:hover {
+      color: white; }
   .navbar #navbar-logo {
     width: 40px; }
   .navbar .nav-link {
@@ -218,7 +237,7 @@ a {
 #home {
   color: white;
   min-height: 50vh;
-  padding: 10vh 0; }
+  padding: 85px 0 10vh 0; }
   #home #movement {
     text-decoration: underline;
     text-decoration-color: #f8e083;
@@ -233,13 +252,14 @@ a {
   #home p {
     font-size: .75rem; }
   #home #speck {
-    height: 10px;
-    width: 10px;
+    height: 4px;
+    width: 4px;
     background-color: #f8e083;
     border-radius: 50%;
     display: inline-block;
     position: absolute;
-    left: 30%; }
+    left: 30%;
+    top: 5%; }
 
 @media only screen and (min-width: 500px) {
   #home .large-heading {
@@ -256,7 +276,12 @@ a {
     #home .large-heading {
       font-size: 3rem; }
     #home h3 {
-      font-size: 1.25rem; } }
+      font-size: 1.25rem; }
+    #home #speck {
+      height: 6px;
+      width: 6px;
+      left: 29%;
+      top: 23%; } }
 
 @media only screen and (min-width: 1200px) {
   #home {
@@ -283,7 +308,8 @@ a {
   #fireflies-banner #banner-firefly {
     position: relative;
     width: 40px;
-    left: 25%; }
+    left: 25%;
+    transform: rotate(-17.75deg); }
 
 @media only screen and (min-width: 700px) {
   #fireflies-banner {
@@ -299,6 +325,7 @@ a {
 
 @media only screen and (min-width: 1200px) {
   #fireflies-banner {
+    background: url("../fireflies-theme/assets/images/fireflies-banner.png") 0 102%/100% no-repeat;
     min-height: 65vh; }
     #fireflies-banner #banner-firefly {
       left: 28%;
@@ -307,6 +334,10 @@ a {
 @media only screen and (min-width: 1400px) {
   #fireflies-banner {
     min-height: 75vh; } }
+
+@media only screen and (min-width: 2000px) {
+  #fireflies-banner {
+    background: url("../fireflies-theme/assets/images/fireflies-banner.png") 0 100%/100% no-repeat; } }
 
 @media only screen and (min-width: 2500px) {
   #fireflies-banner {
@@ -331,8 +362,7 @@ a {
   #why-fireflies .wireframe-description {
     font-size: 125%; }
   #why-fireflies #how-it-works-heading {
-    text-decoration: underline;
-    text-decoration-color: white; }
+    text-decoration: underline; }
 
 .wireframe-preview {
   max-height: 80vh;
@@ -342,31 +372,37 @@ a {
   border-radius: 10px;
   border: solid 2px rgba(0, 0, 0, 0.1); }
 
-.modal-header a.close-modal {
-  text-decoration: none;
-  font-size: 150%; }
-
-.modal-header a.active {
-  color: rgba(0, 0, 0, 0.25); }
-  .modal-header a.active:hover {
+.modal-header {
+  padding: .5rem .5rem; }
+  .modal-header a.close-modal {
+    text-decoration: none;
+    font-size: .5rem; }
+  .modal-header a.active {
+    color: rgba(0, 0, 0, 0.25); }
+    .modal-header a.active:hover {
+      color: black;
+      -webkit-transition: all 0.3s ease-out;
+      -moz-transition: all 0.3s ease-out;
+      -ms-transition: all 0.3s ease-out;
+      -o-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out; }
+  .modal-header a.disabled {
     color: black;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -ms-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out; }
-
-.modal-header a.disabled {
-  color: black;
-  pointer-events: none; }
-
-.modal-header .close {
-  padding: 0;
-  margin: 0 0 0 1em; }
+    pointer-events: none; }
+  .modal-header .close {
+    padding: 0;
+    margin: 0 0 0 1em;
+    font-size: .5rem; }
 
 .modal-dialog {
   width: auto !important;
   max-width: 1920px !important; }
+
+@media only screen and (min-width: 768px) {
+  .modal-header a.close-modal {
+    font-size: 1rem; }
+  .modal-header .close {
+    font-size: .8rem; } }
 
 #splitter {
   min-height: 20vh;
@@ -390,7 +426,8 @@ a {
     border-radius: 0 0 50% 50%; } }
 
 #ways-to-spark-change {
-  color: white; }
+  color: white;
+  padding-top: 10vh; }
   #ways-to-spark-change #spark {
     text-decoration: underline;
     text-decoration-color: #f8e083; }
@@ -399,6 +436,10 @@ a {
     max-width: 50%; }
   #ways-to-spark-change .change-descriptions {
     width: 50%; }
+  #ways-to-spark-change #petition-icon {
+    margin: 0 !important;
+    max-width: 100% !important;
+    width: 100%; }
 
 @media only screen and (min-width: 768px) {
   #ways-to-spark-change .change-icon {
@@ -408,7 +449,8 @@ a {
     width: 100%; } }
 
 #careers {
-  color: white; }
+  color: white;
+  padding: 115px 0 10vh 0 !important; }
   #careers .nav-pills {
     flex-direction: column; }
     #careers .nav-pills .nav-item .nav-link {
@@ -454,7 +496,7 @@ a {
       color: white; }
 
 #footer {
-  padding: 10vh 0;
+  padding: 15vh 0;
   color: white; }
   #footer #main-footer {
     margin-top: 7.5em; }

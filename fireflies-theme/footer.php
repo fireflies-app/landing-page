@@ -16,8 +16,8 @@
             </div>
             <div class="col-12 col-md-4 hv-center my-2" id="footer-logo">
                 <div>
-                    <h1 id="footer-logo">Fireflies</h1> <br>
-                    <p id="footer-copyright">Fireflies 2020. All Rights Reserved</p>
+                    <h1 id="footer-logo">fireflies</h1> <br>
+                    <p id="footer-copyright">fireflies 2020. All Rights Reserved</p>
                 </div>
             </div>
             <div class="col-12 col-md-4 hv-center my-2" id="footer-contact">

@@ -1,5 +1,6 @@
 #ways-to-spark-change {
     color: white;
+    padding-top: 10vh;
     #spark {
         text-decoration: underline;
         text-decoration-color: $gold;
@@ -11,6 +12,12 @@
     }
     .change-descriptions {
         width: 50%;
+    }
+
+    #petition-icon{
+        margin: 0 !important;
+        max-width: 100% !important;
+        width: 100%;
     }
 }
 

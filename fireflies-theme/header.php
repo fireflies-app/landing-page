@@ -17,7 +17,7 @@
         <!-- Brand -->
         <a class="navbar-brand" href="<?php echo get_site_url(); ?>">
             <img id="navbar-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-white.png"
-                alt="Logo">
+                alt="Logo"> <p class="ml-2">fireflies</p> 
         </a>
 
         <!-- Toggler/collapsibe Button -->
