@@ -196,7 +196,7 @@
 
                         <p> Our marketing team is currently divided up into two different areas of expertise: </p>
 
-                        <p> <b class="underline">Socials team</b>is in charge of driving the strategy and content that
+                        <p> <b class="underline">Socials team</b> is in charge of driving the strategy and content that
                             will reach users both pre- and post- MVP launch through various communication methods,
                             including social media and email outreach.</p>
 
@@ -210,7 +210,7 @@
                                 Perform market research, analysis, and testing using a variety of tools to gain insights
                                 and shape marketing strategy</li>
                         </ul>
-                        <p> <b class="underline">Outreach team</b>spearheads creating partnerships and collaborations
+                        <p> <b class="underline">Outreach team</b> spearheads creating partnerships and collaborations
                             with like-minded groups, individuals, and organizations to increase brand recognition,
                             facilitate promotion, and boost revenue.</p>
 

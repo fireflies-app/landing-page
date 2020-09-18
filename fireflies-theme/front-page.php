@@ -4,11 +4,16 @@
 
 <section class="hv-center" id="home">
     <div class="container" id="home-content">
-        <h1 class="large-heading position-relative" data-aos="fade-up">Alone a <div class="d-inline-block position-relative"><span id="speck"></span> speck</div>, together a
-            <div class="d-inline-block">movement <hr></div>.
-        </h1> 
-            <br>
-        <h3 class="mt-2" data-aos="fade-up">Welcome to <b class="gold-text">Fireflies</b>, a one-stop platform for advocacy. Advocate for global and local issues you care about, track your impact, and share your experiences with the world.</h3>
+        <h1 class="large-heading position-relative" data-aos="fade-up">Alone a <div
+                class="d-inline-block position-relative"><span id="speck"></span> speck</div>, together a
+            <div class="d-inline-block">movement
+                <hr>
+            </div>.
+        </h1>
+        <br>
+        <h3 class="mt-2" data-aos="fade-up">Welcome to <b class="gold-text">Fireflies</b>, a one-stop platform for
+            advocacy. Advocate for global and local issues you care about, track your impact, and share your experiences
+            with the world.</h3>
         <div class="mt-3 mt-lg-4" data-aos="fade-up" data-aos-duration="750">
             <p class="mb-2">Sign up on our waiting list to hear about our launch.</p> <br>
             <?php echo do_shortcode('[contact-form-7 id="6" title="Contact form 1"]'); ?>
@@ -19,7 +24,8 @@
 <section id="fireflies-banner" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="-300">
     <div id="dispersion-overlay">
         <img id="banner-firefly" src="<?php echo get_template_directory_uri() ?>/assets/images/logos/logo-white.png"
-            alt="Logo White" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="-300" data-aos-easing="ease-out-cubic">
+            alt="Logo White" data-aos="flip-left" data-aos-duration="1500" data-aos-offset="-300"
+            data-aos-easing="ease-out-cubic">
         <img id="dispersion" src="<?php echo get_template_directory_uri() ?>/assets/images/fireflies-banner.png" alt="">
     </div>
 </section>
@@ -30,8 +36,8 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <img class="w-100 my-3 wireframe" data-aos="fade-right"
-                    src="<?php echo get_template_directory_uri() ?>/assets/images/wireframes/1.png"
-                    data-toggle="modal" data-target="#modal-step-1" alt="Explore our 16 causes">
+                    src="<?php echo get_template_directory_uri() ?>/assets/images/wireframes/1.png" data-toggle="modal"
+                    data-target="#modal-step-1" alt="Explore our 16 causes">
             </div>
             <div class="col-md-1"></div>
             <div class="col-12 col-md-5 wireframe-description hv-center">
@@ -50,8 +56,8 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <img class="w-100 my-3 wireframe" data-aos="fade-right"
-                    src="<?php echo get_template_directory_uri() ?>/assets/images/wireframes/2.png"
-                    data-toggle="modal" data-target="#modal-step-2" alt="Advocate for a Cause">
+                    src="<?php echo get_template_directory_uri() ?>/assets/images/wireframes/2.png" data-toggle="modal"
+                    data-target="#modal-step-2" alt="Advocate for a Cause">
             </div>
             <div class="col-md-1"></div>
             <div class="col-12 col-md-5 wireframe-description hv-center">
@@ -68,8 +74,8 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <img class="w-100 my-3 wireframe" data-aos="fade-right"
-                    src="<?php echo get_template_directory_uri() ?>/assets/images/wireframes/3.png"
-                    data-toggle="modal" data-target="#modal-step-3" alt="Match">
+                    src="<?php echo get_template_directory_uri() ?>/assets/images/wireframes/3.png" data-toggle="modal"
+                    data-target="#modal-step-3" alt="Match">
             </div>
             <div class="col-md-1"></div>
             <div class="col-12 col-md-5 wireframe-description hv-center">
@@ -87,8 +93,8 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <img class="w-100 my-3 wireframe" data-aos="fade-right"
-                    src="<?php echo get_template_directory_uri() ?>/assets/images/wireframes/4.png"
-                    data-toggle="modal" data-target="#modal-step-4" alt="Track Your Progress">
+                    src="<?php echo get_template_directory_uri() ?>/assets/images/wireframes/4.png" data-toggle="modal"
+                    data-target="#modal-step-4" alt="Track Your Progress">
             </div>
             <div class="col-md-1"></div>
             <div class="col-12 col-md-5 wireframe-description hv-center">
@@ -104,15 +110,16 @@
         <div class="row">
             <div class="col-12 col-md-6">
                 <img class="w-100 my-3 wireframe" data-aos="fade-right"
-                    src="<?php echo get_template_directory_uri() ?>/assets/images/wireframes/5.png"
-                    data-toggle="modal" data-target="#modal-step-5" alt="Our community">
+                    src="<?php echo get_template_directory_uri() ?>/assets/images/wireframes/5.png" data-toggle="modal"
+                    data-target="#modal-step-5" alt="Our community">
             </div>
             <div class="col-md-1"></div>
             <div class="col-12 col-md-5 wireframe-description hv-center">
                 <div class="my-3" data-aos="fade-left">
                     <h1 class="medium-heading">5</h1> <br>
                     <h3 class="small-heading">Join the Community</h3>
-                    <p class="mt-3">Fireflies is home to the most supportive and encouraging <b>community of advocates</b>.
+                    <p class="mt-3">Fireflies is home to the most supportive and encouraging <b>community of
+                            advocates</b>.
                         Show
                         others what you are doing to change the world and inspire others to do the same.</p>
                 </div>
@@ -126,37 +133,58 @@
 </section>
 
 <section id="ways-to-spark-change">
-    <h1 class="d-block text-center medium-heading" data-aos="zoom-in-down" data-aos-offset="200">Ways to <b id="spark">Spark</b> Change</h1>
+    <h1 class="d-block text-center medium-heading" data-aos="zoom-in-down" data-aos-offset="200">Ways to <b
+            id="spark">Spark</b> Change</h1>
     <p class="d-block text-center" data-aos="zoom-in-down" data-aos-offset="200">supported by <strong>Fireflies</strong>
     </p>
     <div class="container-xl mt-5">
         <div class="row">
             <div class="col-12 col-md-3 d-flex flex-column text-center my-3">
-                <img class="change-icon mx-auto" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/donate.png" alt="Donate" data-aos="flip-left" data-aos-duration="1000">
+                <div class="h-100 hv-center">
+                    <img class="change-icon mx-auto"
+                        src="<?php echo get_template_directory_uri() ?>/assets/images/icons/donate.png" alt="Donate"
+                        data-aos="flip-left" data-aos-duration="1000">
+                </div>
                 <div class="mt-auto" data-aos="zoom-in-up" data-aos-duration="500" data-aos-offset="300">
                     <h3 class="d-block text-center small-heading">Donate</h4>
-                    <p class="mt-3 change-descriptions mx-auto text-center">Donate to a charity of your choice. Every dollar counts.</p>
+                        <p class="mt-3 change-descriptions mx-auto text-center">Donate to a charity of your choice.
+                            Every dollar counts.</p>
                 </div>
             </div>
             <div class="col-12 col-md-3 d-flex flex-column text-center my-3">
-                <img class="change-icon mx-auto" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/volunteer.png" alt="Volunteer" data-aos="flip-left" data-aos-duration="1000">
+                <div class="h-100 hv-center">
+                    <img class="change-icon mx-auto"
+                        src="<?php echo get_template_directory_uri() ?>/assets/images/icons/volunteer.png"
+                        alt="Volunteer" data-aos="flip-left" data-aos-duration="1000">
+                </div>
                 <div class="mt-auto" data-aos="zoom-in-up" data-aos-duration="500" data-aos-offset="300">
                     <h3 class="d-block text-center small-heading">Volunteer</h4>
-                    <p class="mt-3 change-descriptions mx-auto text-center">Volunteer virtually or at a site near you.</p>
+                        <p class="mt-3 change-descriptions mx-auto text-center">Volunteer virtually or at a site near
+                            you.</p>
                 </div>
             </div>
             <div class="col-12 col-md-3 d-flex flex-column text-center my-3">
-                <img class="change-icon mx-auto" id="petition-icon" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/fireflies-text.png" alt="Petition" data-aos="flip-left" data-aos-duration="1000">
+                <div class="h-100 hv-center">
+                    <img class="change-icon mx-auto" id="petition-icon"
+                        src="<?php echo get_template_directory_uri() ?>/assets/images/icons/fireflies-text.png"
+                        alt="Petition" data-aos="flip-left" data-aos-duration="1000">
+                </div>
                 <div class="mt-auto" data-aos="zoom-in-up" data-aos-duration="500" data-aos-offset="300">
                     <h3 class="d-block text-center small-heading">Petition</h4>
-                    <p class="mt-3 change-descriptions mx-auto text-center">Sign petitions to demonstrate public support.</p>
+                        <p class="mt-3 change-descriptions mx-auto text-center">Sign petitions to demonstrate public
+                            support.</p>
                 </div>
             </div>
             <div class="col-12 col-md-3 d-flex flex-column text-center my-3">
-                <img class="change-icon mx-auto" src="<?php echo get_template_directory_uri() ?>/assets/images/icons/learn.png" alt="Learn" data-aos="flip-left" data-aos-duration="1000">
+                <div class="h-100 hv-center">
+                    <img class="change-icon mx-auto"
+                        src="<?php echo get_template_directory_uri() ?>/assets/images/icons/learn.png" alt="Learn"
+                        data-aos="flip-left" data-aos-duration="1000">
+                </div>
                 <div class="mt-auto" data-aos="zoom-in-up" data-aos-duration="500" data-aos-offset="300">
                     <h3 class="d-block text-center small-heading">Learn</h4>
-                    <p class="mt-3 change-descriptions mx-auto text-center">Educate yourself so that you can educate others.</p>
+                        <p class="mt-3 change-descriptions mx-auto text-center">Educate yourself so that you can educate
+                            others.</p>
                 </div>
             </div>
         </div>
@@ -191,9 +219,10 @@
         <div class="modal-content">
             <!-- Modal Header -->
             <div class="modal-header">
-                <a href="" class="close-modal mr-auto active" data-toggle="modal" data-target="#modal-step-1">1. Discover How to
+                <a href="" class="close-modal mr-auto active" data-toggle="modal" data-target="#modal-step-1">1.
+                    Discover How to
                     Help</a>
-                    <a href="" class="close-modal disabled mx-auto">2. Make an Impact</a>
+                <a href="" class="close-modal disabled mx-auto">2. Make an Impact</a>
                 <a href="" class="close-modal active ml-auto" data-toggle="modal" data-target="#modal-step-3">3. Match &
                     Get Matched</a>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -216,7 +245,7 @@
             <div class="modal-header">
                 <a href="" class="close-modal mr-auto active" data-toggle="modal" data-target="#modal-step-2">2. Make an
                     Impact</a>
-                    <a href="" class="close-modal disabled mx-auto">3. Match & Get Matched</a>
+                <a href="" class="close-modal disabled mx-auto">3. Match & Get Matched</a>
                 <a href="" class="close-modal active ml-auto" data-toggle="modal" data-target="#modal-step-4">4.
                     Maintain Your Portfolio</a>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -236,9 +265,11 @@
         <div class="modal-content">
             <!-- Modal Header -->
             <div class="modal-header">
-                <a href="" class="close-modal mr-auto active" data-toggle="modal" data-target="#modal-step-3">3. Match & Get Matched</a>
+                <a href="" class="close-modal mr-auto active" data-toggle="modal" data-target="#modal-step-3">3. Match &
+                    Get Matched</a>
                 <a href="" class="close-modal disabled mx-auto">4. Maintain Your Portfolio</a>
-                <a href="" class="close-modal active ml-auto" data-toggle="modal" data-target="#modal-step-5">5. Join the Community</a>
+                <a href="" class="close-modal active ml-auto" data-toggle="modal" data-target="#modal-step-5">5. Join
+                    the Community</a>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <!-- Modal Body -->
@@ -255,9 +286,10 @@
 <div class="modal fade" id="modal-step-5">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
-             <!-- Modal Header -->
-             <div class="modal-header">
-                <a href="" class="close-modal mr-auto active" data-toggle="modal" data-target="#modal-step-4">4. Maintain Your Portfolio</a>
+            <!-- Modal Header -->
+            <div class="modal-header">
+                <a href="" class="close-modal mr-auto active" data-toggle="modal" data-target="#modal-step-4">4.
+                    Maintain Your Portfolio</a>
                 <a href="" class="close-modal disabled ml-auto">5. Join
                     the Community</a>
                 <button type="button" class="close" data-dismiss="modal">&times;</button>

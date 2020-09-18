@@ -15,7 +15,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <!-- Brand -->
-        <a class="navbar-brand" href="<?php echo get_site_url(); ?>">
+        <a class="navbar-brand hv-center" href="<?php echo get_site_url(); ?>">
             <img id="navbar-logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/logos/logo-white.png"
                 alt="Logo"> <p class="ml-2">fireflies</p> 
         </a>
