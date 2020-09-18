@@ -189,6 +189,7 @@ a {
   border-color: #f8e083; }
 
 .navbar {
+  width: 100vw;
   background: black; }
   .navbar .navbar-brand {
     color: white;
@@ -196,6 +197,8 @@ a {
     font-weight: 900; }
     .navbar .navbar-brand:hover {
       color: white; }
+    .navbar .navbar-brand p {
+      font-size: 1.5rem; }
   .navbar #navbar-logo {
     width: 40px; }
   .navbar .nav-link {
@@ -247,13 +250,14 @@ a {
   color: white;
   min-height: 70vh;
   padding: 85px 0 10vh 0; }
+  #home hr {
+    margin: 0;
+    border-top: 6px dotted #f8e083;
+    height: 1px;
+    width: 100%; }
   #home .container {
     padding-right: 25px;
     padding-left: 25px; }
-  #home #movement {
-    text-decoration: underline;
-    text-decoration-color: #f8e083;
-    text-decoration-style: dotted; }
   #home .large-heading {
     font-size: 1.6rem; }
   #home h3 {
@@ -264,14 +268,13 @@ a {
   #home p {
     font-size: .75rem; }
   #home #speck {
-    height: 4px;
-    width: 4px;
-    background-color: #f8e083;
-    border-radius: 50%;
     display: inline-block;
     position: absolute;
-    left: 30%;
-    top: 5%; }
+    height: 6px;
+    width: 6px;
+    background-color: #f8e083;
+    border-radius: 50%;
+    left: 30%; }
 
 @media only screen and (min-width: 500px) {
   #home .large-heading {
@@ -290,10 +293,7 @@ a {
     #home h3 {
       font-size: 1.25rem; }
     #home #speck {
-      height: 6px;
-      width: 6px;
-      left: 29%;
-      top: 23%; } }
+      top: 12%; } }
 
 @media only screen and (min-width: 1200px) {
   #home {

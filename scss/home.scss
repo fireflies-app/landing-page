@@ -2,16 +2,15 @@
     color: white;
     min-height: 70vh;
     padding: 85px 0 10vh 0;
-
+    hr {
+        margin: 0;
+        border-top: 6px dotted $gold;
+        height:1px;
+        width: 100%;
+    }
     .container {
         padding-right: 25px;
         padding-left: 25px;
-    }
-
-    #movement {
-        text-decoration: underline;
-        text-decoration-color: $gold;
-        text-decoration-style: dotted;
     }
 
     .large-heading {
@@ -30,14 +29,13 @@
     }
 
     #speck {
-        height: 4px;
-        width: 4px;
-        background-color: $gold;
-        border-radius: 50%;
         display: inline-block;
         position: absolute;
+        height: 6px;
+        width: 6px;
+        background-color: $gold;
+        border-radius: 50%;
         left: 30%;
-        top: 5%;
     }
 }
 
@@ -69,12 +67,8 @@
         h3 {
             font-size: 1.25rem;
         }
-
         #speck {
-            height: 6px;
-            width: 6px;
-            left: 29%;
-            top: 23%;
+            top: 12%;
         }
     }
 }
@@ -89,7 +83,7 @@
 
         h3 {
             font-size: 1.5rem;
-        }
+        }  
     }
 }
 

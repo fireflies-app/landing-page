@@ -4,9 +4,11 @@
 
 <section class="hv-center" id="home">
     <div class="container" id="home-content">
-        <h1 class="large-heading position-relative" data-aos="fade-up">Alone a <span id="speck"></span> speck, together a
-            <b id="movement">movement</b>.</h1> <br>
-        <h3 class="mt-2" data-aos="fade-up">Welcome to <b class="gold-text">Fireflies</b>, a social media platform for changemakers. Make an impact by advocating for the causes that you care about.</h3>
+        <h1 class="large-heading position-relative" data-aos="fade-up">Alone a <div class="d-inline-block position-relative"><span id="speck"></span> speck</div>, together a
+            <div class="d-inline-block">movement <hr></div>.
+        </h1> 
+            <br>
+        <h3 class="mt-2" data-aos="fade-up">Welcome to <b class="gold-text">Fireflies</b>, a social media platform for changemakers. Spark a change by advocating for the causes you care about.</h3>
         <div class="mt-3 mt-lg-4" data-aos="fade-up" data-aos-duration="750">
             <p class="mb-2">Sign up on our waiting list to hear about our launch.</p> <br>
             <?php echo do_shortcode('[contact-form-7 id="6" title="Contact form 1"]'); ?>

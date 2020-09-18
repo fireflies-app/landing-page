@@ -7,6 +7,7 @@
     // z-index: 9999;
     // width: 100%;
     // max-height: 100vh;
+    width: 100vw;
     background: black;
 
     .navbar-brand {
@@ -17,6 +18,10 @@
         &:hover {
             // temp fix for black text on hover
             color: white;
+        }
+
+        p {
+            font-size: 1.5rem;
         }
     }
     #navbar-logo {
