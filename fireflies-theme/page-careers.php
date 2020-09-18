@@ -4,20 +4,16 @@
 
 <section class="text-center" id="careers">
     <div class="container">
-        <div class="row mb-5">
-            <div class="col-12 col-lg-7 text-left">
+        <div class="row mb-3">
+            <div class="col-12 d-flex align-items-center">
                 <h1 class="large-heading">We're Recruiting!</h1>
             </div>
-            <div class="col-12 order-lg-3 hv-center">
+            <div class="col-12 hv-center">
                 <p class="my-3 my-lg-5 text-left">Join Fireflies' dynamic, fast-growing team that seeks to transform the
                     way people advocate for global and local issues. We are looking for talented individuals who are
                     passionate about social impact, have a strong willingness to learn, and wish to participate in a
                     fast-paced startup scene. At Fireflies, you will collaborate with cross-functional teams to deliver
                     creative solutions that propel our mission forward. </p>
-            </div>
-            <div class="col-lg-2 order-lg-2 d-none d-lg-flex hv-center ">
-                <a class="btn" target="_blank"
-                    href="https://docs.google.com/forms/d/e/1FAIpQLSc_Mq2SBHcniXGpI5D--LgfMB8DH4rlMEuwA_VPSRywti4GUg/viewform?usp=sf_link">Apply</a>
             </div>
         </div>
         <div class="row">
@@ -101,7 +97,8 @@
                             <li>Design robust APIs to support mobile and desktop clients</li>
                             <li>Manage and optimize scalable distributed systems on the cloud</li>
                             <li>Optimize web app for performance and scalability</li>
-                            <li>Develop automated tests to ensure business needs are met and allow for regression testing</li>
+                            <li>Develop automated tests to ensure business needs are met and allow for regression
+                                testing</li>
                         </ul>
 
                         <h6>Basic Qualifications</h6>
