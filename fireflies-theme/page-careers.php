@@ -3,12 +3,12 @@
 <?php get_header();?>
 
 <section class="text-center" id="careers">
-    <div class="container">
+    <div class="container" >
         <div class="row mb-3">
-            <div class="col-12 d-flex align-items-center">
+            <div class="col-12 d-flex align-items-center" data-aos="fade-down">
                 <h1 class="large-heading">We're Recruiting!</h1>
             </div>
-            <div class="col-12 hv-center">
+            <div class="col-12 hv-center" data-aos="fade-down">
                 <p class="my-3 my-lg-5 text-left">Join Fireflies' dynamic, fast-growing team that seeks to transform the
                     way people advocate for global and local issues. We are looking for talented individuals who are
                     passionate about social impact, have a strong willingness to learn, and wish to participate in a
@@ -17,7 +17,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-lg-4 mb-5">
+            <div class="col-12 col-lg-4 mb-5" data-aos="fade-right">
                 <!-- Nav pills -->
                 <ul class="nav nav-pills" role="tablist">
                     <li class="nav-item">
@@ -41,7 +41,7 @@
             </div>
             <div class="col-12 col-lg-8">
                 <!-- Tab panes -->
-                <div class="tab-content">
+                <div class="tab-content" data-aos="fade-left">
                     <div id="front-end" class="container tab-pane active"><br>
                         <h5>Front End Engineer</h5>
                         <p>We are looking for enthusiastic, experienced Front End Engineers to help implement the look
@@ -310,7 +310,7 @@
                     </div>
                 </div>
             </div>
-            <p class="mt-5 text-center d-block w-100 d-lg-none">Have questions? Contact us at <a
+            <p class="mt-5 text-center d-block w-100 d-lg-none" data-aos="fade-right">Have questions? Contact us at <a
                     href="mailto:hello@fireflies.app">hello@fireflies.app</a></p>
         </div>
     </div>
