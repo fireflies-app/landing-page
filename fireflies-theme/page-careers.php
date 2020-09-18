@@ -64,7 +64,7 @@
                         <h6>Basic Qualifications</h6>
                         <ul>
                             <li>Proficient with React, GraphQL, Apollo Client, and Styled Components</li>
-                            <li>Proficient with React, GraphQL, Apollo Client, and Styled Components</li>
+                            <li>Experience with responsive and adaptive design</li>
                             <li>Understanding of SEO principles</li>
                             <li>Strong verbal communication & interpersonal skills</li>
                         </ul>
@@ -101,7 +101,7 @@
                             <li>Design robust APIs to support mobile and desktop clients</li>
                             <li>Manage and optimize scalable distributed systems on the cloud</li>
                             <li>Optimize web app for performance and scalability</li>
-                            <li>Optimize web app for performance and scalability</li>
+                            <li>Develop automated tests to ensure business needs are met and allow for regression testing</li>
                         </ul>
 
                         <h6>Basic Qualifications</h6>
@@ -116,7 +116,7 @@
                         <h6>Preferred Qualifications</h6>
 
                         <ul>
-                            <li> Pursuing or obtained a BS in Computer Science or a related field</li>
+                            <li>Bachelor's degree in Computer Science or a related field</li>
                         </ul>
 
                         <p> <b>Minimum Hours</b>: 15-20 hours per week</p>
