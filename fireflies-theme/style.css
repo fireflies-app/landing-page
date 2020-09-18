@@ -428,7 +428,8 @@ a {
   #ways-to-spark-change #petition-icon {
     margin: 0 !important;
     max-width: 100% !important;
-    width: 100%; }
+    width: 100%;
+    padding-top: 25px; }
 
 @media only screen and (min-width: 768px) {
   #ways-to-spark-change .change-icon {
